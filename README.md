@@ -10,7 +10,6 @@ This project is a simple web-based application for object detection using YOLOv8
 - 💾 Pretrained model included (`yolov8n.pt`)
 - 📊 Modular code for easy training and inference
 
-```markdown
 ## Project Directory Structure
 
 ```
@@ -38,7 +37,7 @@ This project is a simple web-based application for object detection using YOLOv8
 │   ├── collector.py
 │   ├── metric.py
 │   ├── prometheus.yml
-│   └── **pycache**
+│   
 ├── static
 │   ├── results
 │   └── uploads
@@ -48,7 +47,7 @@ This project is a simple web-based application for object detection using YOLOv8
 └── yolov8n.pt
 
 ```
-```
+
 
 ## ⚙️ Installation
 
