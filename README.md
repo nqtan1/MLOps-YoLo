@@ -4,11 +4,12 @@ This project is a simple web-based application for object detection using YOLOv8
 
 ## 🚀 Features
 
-- 🔍 Object detection using YOLOv8 (PyTorch version)
-- 📷 Upload and process custom images
-- 🌐 Flask-based web interface
-- 💾 Pretrained model included (`yolov8n.pt`)
-- 📊 Modular code for easy training and inference
+🔍 Object detection using YOLOv8n
+📷 Upload and process custom images  
+🌐 Flask-based web interface  
+💾 Pretrained model included (yolov8n.pt)  
+📊 Modular code for easy training and inference  
+📈 Monitoring integrated with Prometheus and Grafana
 
 ## Project Directory Structure
 
