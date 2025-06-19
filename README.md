@@ -10,26 +10,45 @@ This project is a simple web-based application for object detection using YOLOv8
 - 💾 Pretrained model included (`yolov8n.pt`)
 - 📊 Modular code for easy training and inference
 
-## 📁 Project Structure
+```markdown
+## Project Directory Structure
 
+```
 
+.
+├── app.py
+├── data
+│   ├── coco128
+│   └── yolo
+├── data.py
+├── env
+│   ├── bin
+│   ├── lib
+│   ├── pyvenv.cfg
+│   └── share
+├── explanation
+│   ├── explanation\_data.py
+│   └── explanation\_model.py
+├── grafana\_11.6.1\_amd64.deb
+├── model
+│   ├── yoloV8\_model
+│   ├── yoloV8\_model.png
+│   └── yolov8n.pt
+├── monitoring
+│   ├── collector.py
+│   ├── metric.py
+│   ├── prometheus.yml
+│   └── **pycache**
+├── static
+│   ├── results
+│   └── uploads
+├── templates
+│   └── index.html
+├── train.py
+└── yolov8n.pt
 
-MLOps-YoLo/
-│
-├── app.py                 # Main Flask application
-├── train.py               # Training script for YOLOv8
-├── yolov8n.pt             # Pretrained model file (not tracked by GitHub)
-│
-├── static/
-│   └── uploads/           # Uploaded images
-│
-├── templates/
-│   └── index.html         # HTML template for the web interface
-│
-├── requirements.txt       # Python dependencies
-└── README.md              # Project description (this file)
-
-
+```
+```
 
 ## ⚙️ Installation
 
